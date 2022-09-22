@@ -1,0 +1,10 @@
+foi utilizado o Bootstrap para os icones
+- aprendi algumas funcoes da tag <span>
+- justify-content -> alinha os itens do container flexível quando os itens não utilizam todo o espaço disponível no eixo principal (horizontal).
+- :hover selector is used to select elements when you mouse over them
+- list-style: none; muda o estilo da lista nesse caso retira as bolinhas
+-A declaração !important serve para forçar o CSS a usar a propriedade descrita nessa linha
+- nth-child() seleciona qual numero do elemento que voce quer
+- A função CSS translate() reposiciona um elemento na direção horizontal e/ou vertical 
+
+
