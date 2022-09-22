@@ -1,15 +1,23 @@
 body {
+  
     display: flex;
-    align-items: center;
+    
     justify-content: center;
-
+    background: url(https://images5.alphacoders.com/876/876590.png);
+    background-size: 100%;
+    background-position: 2cm ;
 }
 
-ul {
+ul { 
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
     position: relative;
     display: flex;
     padding: 0;
     margin: 0;
+    
 }
 
 ul li {
@@ -19,8 +27,6 @@ ul li {
     width: 60px;
     height: 60px;
     transform: rotate(-30deg) skew(25deg);
-    background: #ccc;
-
 }
 
 ul li span{
@@ -36,8 +42,6 @@ ul li span{
     transition: 0.5s;
     justify-content: center;
     align-items: center;
-        
-
 }
 
 
@@ -71,10 +75,17 @@ ul li :hover span:nth-child(1) {
     opacity:0.2;
 }
 
-ul li:nth-child(3) span {
-    background: #3b5999;
+
+
+ul li:nth-child(1) span {
+    background:linear-gradient( rgb(205, 61, 9) ,rgb(75, 8, 230));
 }
 
 ul li:nth-child(2) span {
-    background: #b0902d;
+    background: #1f0fb3;
 }
+
+ul li:nth-child(3) span{
+    background:linear-gradient( rgb(255, 0, 0),rgb(141, 10, 10));
+}
+
