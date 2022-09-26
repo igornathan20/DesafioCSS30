@@ -26,3 +26,7 @@ O mesmo efeito de animação acima pode ser obtido usando a animationpropriedade
 div {
   animation: example 5s linear 2s infinite alternate;
 }
+
+rotate
+
+ transform: translate();
